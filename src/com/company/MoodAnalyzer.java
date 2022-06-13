@@ -1,7 +1,7 @@
 package com.company;
 
 public class MoodAnalyzer {
-    public String message;
+    public String message1;
 
     //DEFAULT CONSTRUCTOR
     public MoodAnalyzer() {
@@ -10,14 +10,14 @@ public class MoodAnalyzer {
 
     //PARAMETERISED CONSTRUCTOR
     public MoodAnalyzer(String message) {
-        this.message = message;
+        this.message1 = message;
     }
 
     //METHOD TO ANALYZE MOOD
     public String analyseMood() {
         {
             try {
-                if (message.contains("Sad"))
+                if (message1.contains("Sad"))
                     return "SAD";
                 else
                     return "HAPPY";
